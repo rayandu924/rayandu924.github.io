@@ -45,6 +45,8 @@ p {
     line-height: 1.7
 }
 
+/* Div selector with properties and values */
+
 .bono {
     background-color: #4081ec;
     padding: 12px; 
