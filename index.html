@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdelhamid Farsi | Porfolio</title>
+    <title>Abdelhamid | Home</title>
+    <meta name="google-site-verification" content="BorkECYn2U8uOogFo3lVn7FmXHyx7jMGWhPqkrQpHXs" />
 
 	<!-- Preload hero image -->
 
 
 	<!-- Stylesheets -->
-    <link rel="stylesheet" href="../assets/css/lunadoge.css" />
-    <link rel="stylesheet" href="../assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/lunadoge.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
 
 	<!-- Google Fonts -->
 
@@ -27,6 +28,16 @@
     rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CZBKPXBBWJ"></script>
+    <script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-CZBKPXBBWJ');
+    </script>
 
 </head>
 
@@ -45,14 +56,16 @@
         </div>
 
         <div class="hero-bg-media">
-            <video loop muted autoplay poster="../assets/img/Galaxy.jpg" class="background-video">  
-            <source src="../assets/videos/galaxy_space.mp4" type="video/mp4">
+            <video loop muted autoplay poster="assets/img/Galaxy.jpg" class="background-video">  
+            <source src="assets/videos/galaxy_space.mp4" type="video/mp4">
             </video>
         </div>
     
         <div class="container-btn">
-            <a href="../contact/index.html" class="btn btn-primary btn-rounded"><i class="fas fa-shopping-cart"></i><span>Contact</span></a>        
+            <a href="portfolio/index.html" class="btn btn-primary btn-rounded"><i class="fas fa-shopping-cart"></i><span>Portfolio</span></a>        
+            <a href="contact/index.html" class="btn btn-primary btn-rounded "><i class="far fa-address-card"></i><span>Contact</span></a>
         </div>
+    
         <div class="bg-overlay"></div>
     
     </header>
@@ -60,27 +73,43 @@
 
     <!-- main content with sections -->
     <main>
+        
+        <section class="container-flex theme-two corners-soft first-sec">
+            <div class="col-1 text-center">
+                <h2>Front-End Works</h2>
+                <h3>Everything  I learned with manuelly</h3>
+            </div>
+            <div href="exercises.html" class="col-2 shadow-pop-tr">
+                <h3>Exercises <i class="fas fa-file-code"></i></h3><h2>Here are my front-end exercises.</h2>
+                <a href="exercises.html" class="btn btn-primary btn-rounded bounce-top">See more</a>
+            </div>
+            <div href="javascript/exercises/index.html" class="col-2 shadow-pop-tr">
+                <h3>Javascript <i class="fab fa-js-square"></i></h3><h2>You'll find here all my javascript exercises.</h2>
+                <a href="portfolio/van-gogh/index.html" class="btn btn-primary btn-rounded bounce-top">See more</a>
+            </div>
+        </section>
+
         <section class="container-flex theme-one text-center corners-soft img-border img-corners-soft second-sec">
             <div class="col-1 text-center">
                 <h2>Projects</h2>
             </div>
             <div class="col-3">
-                <figure><img src="../assets/img/project-van-gogh.png" alt="project-van-gogh"></figure>
+                <figure><img src="assets/img/project-van-gogh.png" alt="project-van-gogh"></figure>
                 <h3>Vincent Van Gogh</h3>
                 <p>A summary of the life and work of Dutch artist Vincent van Gogh with an embeded video from YouTube.</p>
-                <a href="van-gogh/index.html" class="btn btn-primary btn-rounded bounce-top">See more</a>
+                <a href="portfolio/van-gogh/index.html" class="btn btn-primary btn-rounded bounce-top">See more</a>
             </div>
             <div class="col-3">
-                <figure><img src="../assets/img/project-smoothie.jpg" alt="project-smoothie"></figure>
+                <figure><img src="assets/img/project-smoothie.jpg" alt="project-smoothie"></figure>
                 <h3>Smooth Smoothies</h3>
                 <p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
-                <a href="smoothies/index.html" class="btn btn-primary btn-rounded bounce-top">See more</a>
+                <a href="portfolio/smoothies/index.html" class="btn btn-primary btn-rounded bounce-top">See more</a>
             </div>
             <div class="col-3">
-                <figure><img src="../assets/img/project-fashion.jpg" alt="project-fashion"></figure>
+                <figure><img src="assets/img/project-fashion.jpg" alt="project-fashion"></figure>
                 <h3>Snazzy Fashion</h3>
                 <p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
-                <a href="fashion/index.html" class="btn btn-primary btn-rounded bounce-top">See more</a>
+                <a href="portfolio/fashion/index.html" class="btn btn-primary btn-rounded bounce-top">See more</a>
             </div>
         </section>
 
@@ -96,9 +125,9 @@
 		<h3>Front end developer </h3>
 
 		<ul class="footer-links">
-			<li><a href="../index.html">Home</a></li>
-			<li><a href="../portfolio/index.html">Portfolio</a></li>
-			<li><a href="../contact/index.html">Contact</a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="portfolio/index.html">Portfolio</a></li>
+			<li><a href="contact/index.html">Contact</a></li>
 		</ul>
 
 		<ul class="footer-icons">
@@ -107,11 +136,11 @@
 			<li><a href="" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
 		</ul>
 
-		<p class="privacy"><a href="../privacy.html">Privacy &amp; Legal</a></p>
+		<p class="privacy"><a href="privacy.html">Privacy &amp; Legal</a></p>
 
 	</footer>
        
-    <!--<script src="assets/js/menu.js"></script>-->
+    <script src="exercises/menus/assets/js/menu.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
         <script>
