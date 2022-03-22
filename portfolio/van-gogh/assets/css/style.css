@@ -20,6 +20,7 @@ input, button, textarea, select { font: inherit }
 
 /* Web page */
 body {
+    font-family: 'Merriweather', serif;
     background-color: #FFFFBD;
 }
 
